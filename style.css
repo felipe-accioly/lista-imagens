@@ -1,0 +1,43 @@
+html{
+    font-size: 62.5%;
+    font-family: 'Public Sans', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+    padding: 80px 20px;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container .card{
+    position: relative;
+    width: 335px;
+    height: 430px;
+}
+
+.container .card img{
+    width: 100%;
+}
+
+.container .card .informations{
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    color: #ffff;
+}
+
+.container .card .informations .card-name{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.container .card .informations .artist{
+    font-size: 17px;
+    font-weight: 300;
+}
